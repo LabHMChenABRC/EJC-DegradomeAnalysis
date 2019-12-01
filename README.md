@@ -3,17 +3,15 @@
 **The putaive NMD target prediction :**
 
 Execute R script "NMDTarget_EJC.R" will output putative NMD targets list, and it requires R package data.table and fst.
-```bash
+```
 Rscript NMDTarget_EJC.R <Path_of_Dataset_folder> <GFF_file> <Representative_gene_model_file> <Output_of_Path>
 ```
-
-Supplemental Dataset 1 :
-```bash
-Rscript NMDTarget_EJC.R ./Dataset/Arabidopsis/ ./Reference/Arabidopsis/TAIR10_GFF3_genes_transposons.gff ./Reference/Arabidopsis/Representative_gene_model_With_annotation.tsv ./Ouput/Arabidopsis/
 ```
+#Supplemental Dataset 1 :
+Rscript NMDTarget_EJC.R ./Dataset/Arabidopsis/ ./Reference/Arabidopsis/TAIR10_GFF3_genes_transposons.gff ./Reference/Arabidopsis/Representative_gene_model_With_annotation.tsv ./Ouput/Arabidopsis/
 
-Supplemental Dataset 2 :
-```bash
+
+#Supplemental Dataset 2 :
 Rscript NMDTarget_EJC.R ./Dataset/Rice/ ./Reference/Rice/all.gff3 ./Reference/Rice/Representative_gene_model_With_annotation.tsv ./Ouput/Rice/
 ```
 
@@ -35,7 +33,7 @@ Third  column (Read, number)         : normalized abundance of 5'P end
 </pre>
 
 Execute R script "Tsv2Fst.R" will covert count table from tsv format to fst format, and it requires R package data.table and fst.
-```bash
+```
 Rscript Tsv2Fst.R <Path_of_folder_contains_tsv_file>
 ```
 
