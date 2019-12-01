@@ -25,7 +25,7 @@ First, all Degradome dataset were processed and normalized (TP40M) as described 
 Next, processed libraries were mapped to each transcript which concatenated with 100 nt of the corresponding transcript upstream and downstream sequences from the genome. 
 Finally, the mapping results were summarized into the 5'P end count table (.tsv; tab-delimited file) and tsv files were coverted to fst format via R package "fst".
 
-5'P end count table contains three columns of Reference, Position and Read(Dataset/example_count_table_cDNAU100D100.tsv).
+5'P end count table contains three columns of Reference, Position and Read (Dataset/example_count_table_cDNAU100D100.tsv).
 <pre>
 Frist  column (Reference, character) : transcript ID (eg. AT1G01010.1)
 
