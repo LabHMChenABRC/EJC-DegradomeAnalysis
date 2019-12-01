@@ -1,6 +1,6 @@
 # EJC-DegradomeAnalysis
  
-**The putaive NMD target predition :**
+**The putaive NMD target prediction :**
 
 Execute R script "NMDTarget_EJC.R" will output putative NMD targets list, and it requires R package data.table and fst.
 ```bash
