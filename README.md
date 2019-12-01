@@ -9,12 +9,12 @@ Rscript NMDTarget_EJC.R <Path_of_Dataset_folder> <GFF_file> <Representative_gene
 
 Supplemental Dataset 1 :
 ```bash
-Rscript NMDTarget_EJC.R ./Dataset/Arabidopsis/ ./Reference/Arabidopsis/TAIR10_GFF3_genes_transposons.gff ./Reference/Arabidopsis/Representative_gene_model_With_annotation.tsv ./Ouput/Arabidopsis
+Rscript NMDTarget_EJC.R ./Dataset/Arabidopsis/ ./Reference/Arabidopsis/TAIR10_GFF3_genes_transposons.gff ./Reference/Arabidopsis/Representative_gene_model_With_annotation.tsv ./Ouput/Arabidopsis/
 ```
 
 Supplemental Dataset 2 :
 ```bash
-Rscript NMDTarget_EJC.R ./Dataset/Rice/ ./Reference/Rice/all.gff3 ./Reference/Rice/Representative_gene_model_With_annotation.tsv ./Ouput/Rice
+Rscript NMDTarget_EJC.R ./Dataset/Rice/ ./Reference/Rice/all.gff3 ./Reference/Rice/Representative_gene_model_With_annotation.tsv ./Ouput/Rice/
 ```
 
 **Dataset folder :**
